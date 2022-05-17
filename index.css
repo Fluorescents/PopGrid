@@ -1,0 +1,32 @@
+.background{
+    height:100%;
+    width:100%;
+    background-image: linear-gradient(to bottom right, pink, blue);
+}
+
+.grid{
+    background-color:white;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    outline: 4px solid black;
+    overflow:hidden;
+    margin: 5% 30% 0;
+}
+
+.box{
+    
+    display:flex;
+    align-items:center;
+    outline: 2px solid black;
+    padding: 50% 11.5%;
+}
+
+.dot{
+    display:none;
+    position:absolute;
+    background-color:red;
+    outline: 2px solid red;
+    padding: 5%;
+    border-radius:100%;
+}
+
